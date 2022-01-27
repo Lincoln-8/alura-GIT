@@ -1,0 +1,16 @@
+[Links]
+https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio
+https://devhints.io/git-log
+
+1º git init -> inicializa um repositório.
+git status -> verifica o statos do repositório git.
+git config -> adiciona certas configurações no teu repositório, nome, email, etc.
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+2º git add . -> monitora todos os arquivos da pasta atual
+git add index.html -> monitora o arquivo escolhido
+3º git commit -m "Criando arquivo index.html com lista de cursos" comita todos os arquivos do repositório.
+git log -> logs de alteração
+git log --oneline -> mostra os logs de forma resumida
+git log --pretty="format:%h %s" -> mostra infos específicas
+git init --bare -> inicializa um repositóri puro pra servidores, onde só irá conter alterações, não pode ser editado.
